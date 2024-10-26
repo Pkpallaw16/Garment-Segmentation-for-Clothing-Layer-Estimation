@@ -1,6 +1,6 @@
 # Garment Segmentation for Clothing Layer Estimation
 
-Welcome! This repository showcases a collection of my Garment Segmentation for Clothing Layer Estimation projects.
+Welcome! This repository outlines details of the my Computer Vision based project - Garment Segmentation for Clothing Layer Estimation.
 
 ## Project Summary
 This project aims to propose an approach for automated clothing insulation based on garment (clothing layer) segmentation and the percentage of the area covered and not covered by garments. The approach is based on a Mask-RCNN and a mathematical equation that relates thermal comfort with the percentage of the body that is covered by area and garment weights.
@@ -13,12 +13,15 @@ In this project two models are developed and final computation is based on the m
 
 ## Result
 The result achieved were of varying degree. Among all the categories of clothes, the best performances were found for the garments “trousers” and “short sleeve top”.
+
 ![image](https://github.com/user-attachments/assets/7151d37c-655e-4531-829d-a9af43fc5907)
 ![image](https://github.com/user-attachments/assets/4dfd8a97-7b34-4f32-b0e8-be84c4aa1932)
 ![image](https://github.com/user-attachments/assets/1d34e750-c2d1-4d07-8d9d-e1f5dd02c77e)
 
-Tools & Technologies
+## Tools & Technologies
 - **Programming**: Python
-- **Libraries**:
-- **Deep Learning Models**: Mask-RCNN,
-- **Frameworks**:
+- **Frameworks/Libraries**: torchvision, PyTorch
+- **Deep Learning Models**: Mask-RCNN
+- **Neural Networks**: ViT, ResNet50, ResNet18, 
+- **Data Sets**: Peen-Fudan, DeepFashion2
+- **IDE**: Google Colab
