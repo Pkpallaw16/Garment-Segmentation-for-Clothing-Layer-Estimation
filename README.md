@@ -3,7 +3,14 @@
 Welcome! This repository outlines details of the my Computer Vision based project - Garment Segmentation for Clothing Layer Estimation.
 
 ## Project Summary
-This project aims to propose an approach for automated clothing insulation based on garment (clothing layer) segmentation and the percentage of the area covered and not covered by garments. The approach is based on a Mask-RCNN and a mathematical equation that relates thermal comfort with the percentage of the body that is covered by area and garment weights.
+The project goal was to estimate the percentage of human body area covered by clothing layers. In this project, we developed 2 deep learning models (Person segmentation model and Garment segmentation model), a technique to map human and garment masks and lastly, estimated clothing insulation percentage. The models were trained on DeepFashion2 dataset.
+
+## My Contribution
+1. Garment Segmentation Modeling: I trained Garment segmentation model on DeepFashion dataset which involved image data processing, scaling, model training and evaluation. 
+2. Human-Garment mask mapping: I developed a technique to map human and garment masks between multiple objects for images having more than on human objects.
+3. Clothing insultation estimate process design: I developed a technique to estimate the human body percentage covered by clothing layer. This was a challenging task as an individual can be wearing multiple clothes while other could be wearing single clothe. I had developed mechanisms to handle all these cases in computing the total area covered by clothing layers. 
+4. Research - I researched several published articles to learn state-of-the-art approaches for the above three tasks. No paper had done similar work as on task #3 hence, #3 is innovative technique.
+
 
 ## Approach
 In this project two models are developed and final computation is based on the models outcomes:
